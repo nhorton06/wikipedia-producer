@@ -1,9 +1,7 @@
 name: test
 
 on:
-  push:
-    tags:
-      - "[0-9]+.[0-9]+"
+  workflow_call:   # only runs when called by docker.yml
 
 jobs:
   test:
