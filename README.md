@@ -71,3 +71,5 @@ docker compose -f compose.test.yaml up -d --wait
 KAFKA_BROKER=127.0.0.1:49092 pipenv run pytest -m kafka -v
 docker compose -f compose.test.yaml down -v
 ```
+
+Test addition for automated test
